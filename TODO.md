@@ -18,7 +18,7 @@
    - Use DynamoDB to store user info  
    - Add an Application Load Balancer (ALB) in front of the EC2 instance  
 
-- [ ] 5. Use ChatGPT (or other tools) to generate CSV sensor data and upload the CSV to S3  
+- [x] 5. generate CSV sensor data and upload the CSV to S3  
 
 - [ ] 6. Create AWS Glue  
    - Create a Glue **workflow**  
