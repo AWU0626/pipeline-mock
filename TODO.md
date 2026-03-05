@@ -1,12 +1,12 @@
 # Homework 3 – High-Level Requirements
 
 - [ ] 1. Terraform to deploy the structure (API Gateway + Lambda)  
-   - Files to create:  
+   - [x] Files to create:  
      - `main.tf`  
      - `variables.tf`  
      - `outputs.tf`  
    - Use Terraform **modules**  
-   - Create a `diff` folder  
+   - [x] Create a `diff` folder  
 
 - [ ] 2. Add Lambda authorizer to `/verify` endpoint  
 
