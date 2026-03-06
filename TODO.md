@@ -21,11 +21,11 @@
 - [x] 5. generate CSV sensor data and upload the CSV to S3  
 
 - [x] 6. Create AWS Glue  
-   - Create a Glue **workflow**  
+   - [x] Create a Glue **workflow**  
    - [x] `job1` → load CSV from S3  
    - [x] `job2` → clean up CSV file and save cleaned data to a new CSV in S3  
 
-- [ ] 7. Use AWS Step Functions to orchestrate AWS Glue + SageMaker training  
+- [x] 7. Use AWS Step Functions to orchestrate AWS Glue + SageMaker training  
    - Step Function should start the Glue workflow  
 
 - [ ] 8. After AWS Glue workflow is finished, Step Function should trigger SageMaker training  
