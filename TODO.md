@@ -28,7 +28,7 @@
 - [x] 7. Use AWS Step Functions to orchestrate AWS Glue + SageMaker training  
    - Step Function should start the Glue workflow  
 
-- [ ] 8. After AWS Glue workflow is finished, Step Function should trigger SageMaker training  
+- [x] 8. After AWS Glue workflow is finished, Step Function should trigger SageMaker training  
    - SageMaker reads the cleaned CSV from S3  
    - Train a model and generate model artifacts  
 
