@@ -1,22 +1,22 @@
-# Homework 3 – High-Level Requirements
+# Homework 4 – High-Level Requirements
 
-- [ ] 1. Terraform to deploy the structure (API Gateway + Lambda)  
+- [x] 1. Terraform to deploy the structure (API Gateway + Lambda)  
    - [x] Files to create:  
-     - `main.tf`  
-     - `variables.tf`  
-     - `outputs.tf`  
+     - [x] `main.tf`  
+     - [x] `variables.tf`  
+     - [x] `outputs.tf`  
    - Use Terraform **modules**  
    - [x] Create a `diff` folder  
 
-- [ ] 2. Add Lambda authorizer to `/verify` endpoint  
+- [x] 2. Add Lambda authorizer to `/verify` endpoint  
 
-- [ ] 3. Request to `/verify` should bring a Bearer token (Authorization: Bearer \<JWT\>)  
+- [x] 3. Request to `/verify` should bring a Bearer token (Authorization: Bearer \<JWT\>)  
 
-- [ ] 4. Use EC2 to host Spring Security / Spring Boot  
+- [x] 4. Use EC2 to host Spring Security / Spring Boot  
    - [x] Do authentication with Spring Security  
    - [x] Generate JWT for the user  
    - [x] Use DynamoDB to store user info  
-   - Add an Application Load Balancer (ALB) in front of the EC2 instance  
+   - [x] Add an Application Load Balancer (ALB) in front of the EC2 instance  
 
 - [x] 5. generate CSV sensor data and upload the CSV to S3  
 
@@ -29,7 +29,7 @@
    - Step Function should start the Glue workflow  
 
 - [x] 8. After AWS Glue workflow is finished, Step Function should trigger SageMaker training  
-   - SageMaker reads the cleaned CSV from S3  
-   - Train a model and generate model artifacts  
+   - [x] SageMaker reads the cleaned CSV from S3  
+   - [x] Train a model and generate model artifacts  
 
 **Deadline:** March 8th

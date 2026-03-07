@@ -3,6 +3,7 @@ package com.example.auth_service.controller;
 import com.example.auth_service.service.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -38,5 +39,10 @@ public class AuthController {
 
         String token = authService.login(username, password);
         return ResponseEntity.ok(Map.of("token", token));
+    }
+
+    @GetMapping("/verify")
+    public ResponseEntity<?> verify() {
+        return ResponseEntity.ok(Map.of("status", "authorized"));
     }
 }
