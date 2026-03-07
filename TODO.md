@@ -13,9 +13,9 @@
 - [ ] 3. Request to `/verify` should bring a Bearer token (Authorization: Bearer \<JWT\>)  
 
 - [ ] 4. Use EC2 to host Spring Security / Spring Boot  
-   - Do authentication with Spring Security  
-   - Generate JWT for the user  
-   - Use DynamoDB to store user info  
+   - [x] Do authentication with Spring Security  
+   - [x] Generate JWT for the user  
+   - [x] Use DynamoDB to store user info  
    - Add an Application Load Balancer (ALB) in front of the EC2 instance  
 
 - [x] 5. generate CSV sensor data and upload the CSV to S3  
