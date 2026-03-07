@@ -1,1 +1,8 @@
-/Users/bing/Downloads/auth-service/src/main/java/com/example/auth_service/AuthServiceApplication.java
+/Users/bing/Desktop/pipeline-mock/auth-service/src/main/java/com/example/auth_service/AuthServiceApplication.java
+/Users/bing/Desktop/pipeline-mock/auth-service/src/main/java/com/example/auth_service/config/DynamoDbConfig.java
+/Users/bing/Desktop/pipeline-mock/auth-service/src/main/java/com/example/auth_service/config/SecurityConfig.java
+/Users/bing/Desktop/pipeline-mock/auth-service/src/main/java/com/example/auth_service/controller/AuthController.java
+/Users/bing/Desktop/pipeline-mock/auth-service/src/main/java/com/example/auth_service/model/User.java
+/Users/bing/Desktop/pipeline-mock/auth-service/src/main/java/com/example/auth_service/repository/UserRepository.java
+/Users/bing/Desktop/pipeline-mock/auth-service/src/main/java/com/example/auth_service/service/AuthService.java
+/Users/bing/Desktop/pipeline-mock/auth-service/src/main/java/com/example/auth_service/util/JwtUtil.java

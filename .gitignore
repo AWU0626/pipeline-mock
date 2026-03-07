@@ -1,1 +1,19 @@
 DIRECTION_MAP.md
+
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/terraform.tfvars
+terraform/.terraform.lock.hcl
+
+# Lambda
+lambda/authorizer/node_modules/
+lambda/authorizer/authorizer.zip
+
+# Spring Boot
+auth-service/target/
+
+# AWS
+*.pem
+.vscode

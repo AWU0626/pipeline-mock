@@ -20,11 +20,18 @@ resource "aws_iam_role_policy" "dynamodb_access" {
 
   policy = jsonencode({
     Version = "2012-10-17"
-    Statement = [{
-      Action   = ["dynamodb:PutItem", "dynamodb:GetItem"]
-      Effect   = "Allow"
-      Resource = var.dynamodb_table_arn
-    }]
+    Statement = [
+      {
+        Action   = ["dynamodb:PutItem", "dynamodb:GetItem"]
+        Effect   = "Allow"
+        Resource = var.dynamodb_table_arn
+      },
+      {
+        Action   = ["s3:GetObject"]
+        Effect   = "Allow"
+        Resource = "arn:aws:s3:::${var.jar_s3_bucket}/*"
+      }
+    ]
   })
 }
 
